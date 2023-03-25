@@ -2,7 +2,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-size: 0;
+  /*font-size: 0;*/
   box-sizing: border-box;
   font-family: 'Roboto Slab', serif;
 }
@@ -24,7 +24,8 @@ body {
   padding-left: 30px;
   padding-right: 30px;
   line-height: 50px;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 100;
 }
 .capa {
   color: #b7cde8;
@@ -56,7 +57,51 @@ body {
   text-transform: uppercase;
   font-size: 58px;
   margin-top: 200px;
+  font-weight: 400;
+  line-height: 54px;
 }
 .profile-title h2 {
   font-size: 16px;
+  font-weight: 100;
+  margin-top: 8px;
+}
+.caminho {
+  list-style: none;
+  padding-left: 0;
+  color: grey;
+}
+.main {
+  padding: 80px 180px 80px 100px;
+}
+.main img {
+  margin-top: 15px;
+  margin-right: 20px;
+  width: 260px;
+  float: left;
+}
+.caminho li {
+  display: inline-block;
+}
+.main h1 {
+  color: #b7cde8;
+  font-weight: normal;
+  font-size: 18px;
+}
+.main h2 {
+  color: #b7cde8;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.main h3 {
+  color: #c6b29a;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.main p {
+  color: #b7cde8;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 28px;
+  text-align: justify;
 }
