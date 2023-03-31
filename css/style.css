@@ -2,12 +2,12 @@
 *{
   margin: 0;
   padding: 0;
-  /*font-size: 0;*/
   box-sizing: border-box;
   font-family: 'Roboto Slab', serif;
 }
 body {
   background-color: #283b5c;
+  font-size: 0;
 }
 .navigation {
   background-color: #283b5c;
@@ -26,6 +26,13 @@ body {
   line-height: 50px;
   font-size: 18px;
   font-weight: 100;
+}
+.navigation a {
+  color: #b7cde8;
+  text-decoration: none;
+}
+.navigation a:hover {
+  color: #c6b29a;
 }
 .capa {
   display: block;
@@ -147,4 +154,12 @@ body {
   color: #c6b29a;
   text-transform: none;
   font-weight: 100;
+}
+.foto-ada {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.foto-laedance {
+  width: 100%;
+  margin-bottom: 20px;
 }
